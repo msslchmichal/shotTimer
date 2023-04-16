@@ -11,7 +11,7 @@ import SwiftUI
 struct shotTimerSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ShotDetectorView()
         }
     }
 }

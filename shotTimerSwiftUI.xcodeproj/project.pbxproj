@@ -8,17 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		682AF19229D614000032F7EB /* shotTimerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682AF19129D614000032F7EB /* shotTimerSwiftUIApp.swift */; };
-		682AF19429D614000032F7EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682AF19329D614000032F7EB /* ContentView.swift */; };
+		682AF19429D614000032F7EB /* ShotDetectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682AF19329D614000032F7EB /* ShotDetectorView.swift */; };
 		682AF19629D614020032F7EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682AF19529D614020032F7EB /* Assets.xcassets */; };
 		682AF19929D614020032F7EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682AF19829D614020032F7EB /* Preview Assets.xcassets */; };
+		682AF1A029D614830032F7EB /* ShotDetectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682AF19F29D614830032F7EB /* ShotDetectorViewModel.swift */; };
+		6861ACDB29E734B30023B9FD /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6861ACDA29E734B30023B9FD /* Settings.swift */; };
+		6867261829D75A300042EA6D /* beep-04.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6867261729D75A300042EA6D /* beep-04.wav */; };
+		6867261A29D75B530042EA6D /* beep-01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6867261929D75B530042EA6D /* beep-01.wav */; };
+		6867261C29D782C50042EA6D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867261B29D782C50042EA6D /* SettingsView.swift */; };
+		6867261E29D83FCE0042EA6D /* ControlMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867261D29D83FCE0042EA6D /* ControlMenuView.swift */; };
+		6867262029D853950042EA6D /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867261F29D853950042EA6D /* SettingsViewModel.swift */; };
+		6874B8E929DA312E0040644A /* AutoConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6874B8E829DA312E0040644A /* AutoConfigView.swift */; };
+		6874B8EB29DA326B0040644A /* AutoConfigViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6874B8EA29DA326B0040644A /* AutoConfigViewModel.swift */; };
+		6874B90C29DCBEB00040644A /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6874B90B29DCBEB00040644A /* ProgressCircleView.swift */; };
+		68A4308729EAAAEA00A5AC47 /* beep-08.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68A4307F29EAAAEA00A5AC47 /* beep-08.wav */; };
+		68A4308829EAAAEA00A5AC47 /* beep-02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68A4308029EAAAEA00A5AC47 /* beep-02.wav */; };
+		68A4308929EAAAEA00A5AC47 /* beep-05.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68A4308129EAAAEA00A5AC47 /* beep-05.wav */; };
+		68A4308A29EAAAEA00A5AC47 /* beep-03.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68A4308229EAAAEA00A5AC47 /* beep-03.wav */; };
+		68A4308B29EAAAEA00A5AC47 /* beep-06.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68A4308329EAAAEA00A5AC47 /* beep-06.wav */; };
+		68A4308C29EAAAEA00A5AC47 /* beep-09.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68A4308429EAAAEA00A5AC47 /* beep-09.wav */; };
+		68A4308D29EAAAEA00A5AC47 /* beep-10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68A4308529EAAAEA00A5AC47 /* beep-10.wav */; };
+		68A4308E29EAAAEA00A5AC47 /* beep-07.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68A4308629EAAAEA00A5AC47 /* beep-07.wav */; };
+		68A4309229EAD3D900A5AC47 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A4309129EAD3D900A5AC47 /* AudioManager.swift */; };
+		68C9B67729D7256000E2CA4C /* Shot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C9B67629D7256000E2CA4C /* Shot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		682AF18E29D614000032F7EB /* shotTimerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shotTimerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		682AF19129D614000032F7EB /* shotTimerSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shotTimerSwiftUIApp.swift; sourceTree = "<group>"; };
-		682AF19329D614000032F7EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		682AF19329D614000032F7EB /* ShotDetectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotDetectorView.swift; sourceTree = "<group>"; };
 		682AF19529D614020032F7EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		682AF19829D614020032F7EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		682AF19F29D614830032F7EB /* ShotDetectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotDetectorViewModel.swift; sourceTree = "<group>"; };
+		6861ACDA29E734B30023B9FD /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		6867261729D75A300042EA6D /* beep-04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-04.wav"; sourceTree = "<group>"; };
+		6867261929D75B530042EA6D /* beep-01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-01.wav"; sourceTree = "<group>"; };
+		6867261B29D782C50042EA6D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6867261D29D83FCE0042EA6D /* ControlMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlMenuView.swift; sourceTree = "<group>"; };
+		6867261F29D853950042EA6D /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		6874B8E829DA312E0040644A /* AutoConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoConfigView.swift; sourceTree = "<group>"; };
+		6874B8EA29DA326B0040644A /* AutoConfigViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoConfigViewModel.swift; sourceTree = "<group>"; };
+		6874B90B29DCBEB00040644A /* ProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
+		68A4307F29EAAAEA00A5AC47 /* beep-08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-08.wav"; sourceTree = "<group>"; };
+		68A4308029EAAAEA00A5AC47 /* beep-02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-02.wav"; sourceTree = "<group>"; };
+		68A4308129EAAAEA00A5AC47 /* beep-05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-05.wav"; sourceTree = "<group>"; };
+		68A4308229EAAAEA00A5AC47 /* beep-03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-03.wav"; sourceTree = "<group>"; };
+		68A4308329EAAAEA00A5AC47 /* beep-06.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-06.wav"; sourceTree = "<group>"; };
+		68A4308429EAAAEA00A5AC47 /* beep-09.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-09.wav"; sourceTree = "<group>"; };
+		68A4308529EAAAEA00A5AC47 /* beep-10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-10.wav"; sourceTree = "<group>"; };
+		68A4308629EAAAEA00A5AC47 /* beep-07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep-07.wav"; sourceTree = "<group>"; };
+		68A4309129EAD3D900A5AC47 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		68C9B67529D71E8B00E2CA4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		68C9B67629D7256000E2CA4C /* Shot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +92,13 @@
 		682AF19029D614000032F7EB /* shotTimerSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				68C9B67529D71E8B00E2CA4C /* Info.plist */,
 				682AF19129D614000032F7EB /* shotTimerSwiftUIApp.swift */,
-				682AF19329D614000032F7EB /* ContentView.swift */,
+				68A4307A29EAA0EF00A5AC47 /* Detector */,
+				68A4307B29EAA11600A5AC47 /* Settings */,
+				68A4307C29EAA12000A5AC47 /* AutoConfig */,
+				68A4307E29EAA1C400A5AC47 /* Helpers */,
+				68A4307D29EAA1B600A5AC47 /* Sounds */,
 				682AF19529D614020032F7EB /* Assets.xcassets */,
 				682AF19729D614020032F7EB /* Preview Content */,
 			);
@@ -65,6 +111,62 @@
 				682AF19829D614020032F7EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		68A4307A29EAA0EF00A5AC47 /* Detector */ = {
+			isa = PBXGroup;
+			children = (
+				6867261D29D83FCE0042EA6D /* ControlMenuView.swift */,
+				682AF19329D614000032F7EB /* ShotDetectorView.swift */,
+				682AF19F29D614830032F7EB /* ShotDetectorViewModel.swift */,
+				68C9B67629D7256000E2CA4C /* Shot.swift */,
+			);
+			path = Detector;
+			sourceTree = "<group>";
+		};
+		68A4307B29EAA11600A5AC47 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6867261B29D782C50042EA6D /* SettingsView.swift */,
+				6867261F29D853950042EA6D /* SettingsViewModel.swift */,
+				6861ACDA29E734B30023B9FD /* Settings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		68A4307C29EAA12000A5AC47 /* AutoConfig */ = {
+			isa = PBXGroup;
+			children = (
+				6874B8E829DA312E0040644A /* AutoConfigView.swift */,
+				6874B8EA29DA326B0040644A /* AutoConfigViewModel.swift */,
+				6874B90B29DCBEB00040644A /* ProgressCircleView.swift */,
+			);
+			path = AutoConfig;
+			sourceTree = "<group>";
+		};
+		68A4307D29EAA1B600A5AC47 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				68A4308029EAAAEA00A5AC47 /* beep-02.wav */,
+				68A4308229EAAAEA00A5AC47 /* beep-03.wav */,
+				68A4308129EAAAEA00A5AC47 /* beep-05.wav */,
+				68A4308329EAAAEA00A5AC47 /* beep-06.wav */,
+				68A4308629EAAAEA00A5AC47 /* beep-07.wav */,
+				68A4307F29EAAAEA00A5AC47 /* beep-08.wav */,
+				68A4308429EAAAEA00A5AC47 /* beep-09.wav */,
+				68A4308529EAAAEA00A5AC47 /* beep-10.wav */,
+				6867261729D75A300042EA6D /* beep-04.wav */,
+				6867261929D75B530042EA6D /* beep-01.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		68A4307E29EAA1C400A5AC47 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				68A4309129EAD3D900A5AC47 /* AudioManager.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +185,8 @@
 			dependencies = (
 			);
 			name = shotTimerSwiftUI;
+			packageProductDependencies = (
+			);
 			productName = shotTimerSwiftUI;
 			productReference = 682AF18E29D614000032F7EB /* shotTimerSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +215,8 @@
 				Base,
 			);
 			mainGroup = 682AF18529D613FF0032F7EB;
+			packageReferences = (
+			);
 			productRefGroup = 682AF18F29D614000032F7EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +232,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				682AF19929D614020032F7EB /* Preview Assets.xcassets in Resources */,
+				6867261829D75A300042EA6D /* beep-04.wav in Resources */,
 				682AF19629D614020032F7EB /* Assets.xcassets in Resources */,
+				68A4308A29EAAAEA00A5AC47 /* beep-03.wav in Resources */,
+				68A4308B29EAAAEA00A5AC47 /* beep-06.wav in Resources */,
+				68A4308D29EAAAEA00A5AC47 /* beep-10.wav in Resources */,
+				68A4308929EAAAEA00A5AC47 /* beep-05.wav in Resources */,
+				6867261A29D75B530042EA6D /* beep-01.wav in Resources */,
+				68A4308C29EAAAEA00A5AC47 /* beep-09.wav in Resources */,
+				68A4308E29EAAAEA00A5AC47 /* beep-07.wav in Resources */,
+				68A4308829EAAAEA00A5AC47 /* beep-02.wav in Resources */,
+				68A4308729EAAAEA00A5AC47 /* beep-08.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +253,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				682AF19429D614000032F7EB /* ContentView.swift in Sources */,
+				682AF19429D614000032F7EB /* ShotDetectorView.swift in Sources */,
+				6874B90C29DCBEB00040644A /* ProgressCircleView.swift in Sources */,
+				6874B8E929DA312E0040644A /* AutoConfigView.swift in Sources */,
+				6867261E29D83FCE0042EA6D /* ControlMenuView.swift in Sources */,
+				6874B8EB29DA326B0040644A /* AutoConfigViewModel.swift in Sources */,
+				6867261C29D782C50042EA6D /* SettingsView.swift in Sources */,
+				68C9B67729D7256000E2CA4C /* Shot.swift in Sources */,
+				68A4309229EAD3D900A5AC47 /* AudioManager.swift in Sources */,
+				682AF1A029D614830032F7EB /* ShotDetectorViewModel.swift in Sources */,
 				682AF19229D614000032F7EB /* shotTimerSwiftUIApp.swift in Sources */,
+				6861ACDB29E734B30023B9FD /* Settings.swift in Sources */,
+				6867262029D853950042EA6D /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +396,8 @@
 				DEVELOPMENT_TEAM = UA4CL74R46;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = shotTimerSwiftUI/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +427,8 @@
 				DEVELOPMENT_TEAM = UA4CL74R46;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = shotTimerSwiftUI/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
