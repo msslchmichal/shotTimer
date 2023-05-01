@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6804FB0329F6C36D00F5A21B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6804FB0229F6C36D00F5A21B /* LoginView.swift */; };
+		6804FB0529F6C3F100F5A21B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6804FB0429F6C3F100F5A21B /* LoginViewModel.swift */; };
+		6804FB0829F6C74200F5A21B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6804FB0729F6C74200F5A21B /* ContentView.swift */; };
 		682AF19229D614000032F7EB /* shotTimerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682AF19129D614000032F7EB /* shotTimerSwiftUIApp.swift */; };
 		682AF19429D614000032F7EB /* ShotDetectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682AF19329D614000032F7EB /* ShotDetectorView.swift */; };
 		682AF19629D614020032F7EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682AF19529D614020032F7EB /* Assets.xcassets */; };
@@ -31,9 +34,18 @@
 		68A4308E29EAAAEA00A5AC47 /* beep-07.wav in Resources */ = {isa = PBXBuildFile; fileRef = 68A4308629EAAAEA00A5AC47 /* beep-07.wav */; };
 		68A4309229EAD3D900A5AC47 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A4309129EAD3D900A5AC47 /* AudioManager.swift */; };
 		68C9B67729D7256000E2CA4C /* Shot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C9B67629D7256000E2CA4C /* Shot.swift */; };
+		8943A2DC29FFBD0A00D610D4 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8943A2DB29FFBD0A00D610D4 /* SignUpView.swift */; };
+		8943A2DE29FFBD1700D610D4 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8943A2DD29FFBD1700D610D4 /* SignUpViewModel.swift */; };
+		898AB8832A0011BA0046F54E /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 898AB8822A0011BA0046F54E /* Realm */; };
+		898AB8852A0011BA0046F54E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 898AB8842A0011BA0046F54E /* RealmSwift */; };
+		898AB8872A0012600046F54E /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898AB8862A0012600046F54E /* AppConfig.swift */; };
+		898AB8892A0014050046F54E /* atlasConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 898AB8882A0014050046F54E /* atlasConfig.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6804FB0229F6C36D00F5A21B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6804FB0429F6C3F100F5A21B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		6804FB0729F6C74200F5A21B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		682AF18E29D614000032F7EB /* shotTimerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shotTimerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		682AF19129D614000032F7EB /* shotTimerSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shotTimerSwiftUIApp.swift; sourceTree = "<group>"; };
 		682AF19329D614000032F7EB /* ShotDetectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotDetectorView.swift; sourceTree = "<group>"; };
@@ -60,6 +72,10 @@
 		68A4309129EAD3D900A5AC47 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 		68C9B67529D71E8B00E2CA4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		68C9B67629D7256000E2CA4C /* Shot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shot.swift; sourceTree = "<group>"; };
+		8943A2DB29FFBD0A00D610D4 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		8943A2DD29FFBD1700D610D4 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		898AB8862A0012600046F54E /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		898AB8882A0014050046F54E /* atlasConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = atlasConfig.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +83,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				898AB8852A0011BA0046F54E /* RealmSwift in Frameworks */,
+				898AB8832A0011BA0046F54E /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6804FB0629F6C3FA00F5A21B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6804FB0229F6C36D00F5A21B /* LoginView.swift */,
+				6804FB0429F6C3F100F5A21B /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		682AF18529D613FF0032F7EB = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +119,8 @@
 		682AF19029D614000032F7EB /* shotTimerSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				898AB8882A0014050046F54E /* atlasConfig.plist */,
+				6804FB0729F6C74200F5A21B /* ContentView.swift */,
 				68C9B67529D71E8B00E2CA4C /* Info.plist */,
 				682AF19129D614000032F7EB /* shotTimerSwiftUIApp.swift */,
 				68A4307A29EAA0EF00A5AC47 /* Detector */,
@@ -101,6 +130,9 @@
 				68A4307D29EAA1B600A5AC47 /* Sounds */,
 				682AF19529D614020032F7EB /* Assets.xcassets */,
 				682AF19729D614020032F7EB /* Preview Content */,
+				6804FB0629F6C3FA00F5A21B /* Login */,
+				8943A2DF29FFBD2000D610D4 /* SignUp */,
+				898AB8862A0012600046F54E /* AppConfig.swift */,
 			);
 			path = shotTimerSwiftUI;
 			sourceTree = "<group>";
@@ -169,6 +201,15 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		8943A2DF29FFBD2000D610D4 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				8943A2DB29FFBD0A00D610D4 /* SignUpView.swift */,
+				8943A2DD29FFBD1700D610D4 /* SignUpViewModel.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -186,6 +227,8 @@
 			);
 			name = shotTimerSwiftUI;
 			packageProductDependencies = (
+				898AB8822A0011BA0046F54E /* Realm */,
+				898AB8842A0011BA0046F54E /* RealmSwift */,
 			);
 			productName = shotTimerSwiftUI;
 			productReference = 682AF18E29D614000032F7EB /* shotTimerSwiftUI.app */;
@@ -216,6 +259,7 @@
 			);
 			mainGroup = 682AF18529D613FF0032F7EB;
 			packageReferences = (
+				898AB8812A0011BA0046F54E /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = 682AF18F29D614000032F7EB /* Products */;
 			projectDirPath = "";
@@ -239,6 +283,7 @@
 				68A4308D29EAAAEA00A5AC47 /* beep-10.wav in Resources */,
 				68A4308929EAAAEA00A5AC47 /* beep-05.wav in Resources */,
 				6867261A29D75B530042EA6D /* beep-01.wav in Resources */,
+				898AB8892A0014050046F54E /* atlasConfig.plist in Resources */,
 				68A4308C29EAAAEA00A5AC47 /* beep-09.wav in Resources */,
 				68A4308E29EAAAEA00A5AC47 /* beep-07.wav in Resources */,
 				68A4308829EAAAEA00A5AC47 /* beep-02.wav in Resources */,
@@ -254,15 +299,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				682AF19429D614000032F7EB /* ShotDetectorView.swift in Sources */,
+				8943A2DE29FFBD1700D610D4 /* SignUpViewModel.swift in Sources */,
 				6874B90C29DCBEB00040644A /* ProgressCircleView.swift in Sources */,
 				6874B8E929DA312E0040644A /* AutoConfigView.swift in Sources */,
 				6867261E29D83FCE0042EA6D /* ControlMenuView.swift in Sources */,
 				6874B8EB29DA326B0040644A /* AutoConfigViewModel.swift in Sources */,
 				6867261C29D782C50042EA6D /* SettingsView.swift in Sources */,
+				6804FB0529F6C3F100F5A21B /* LoginViewModel.swift in Sources */,
 				68C9B67729D7256000E2CA4C /* Shot.swift in Sources */,
+				898AB8872A0012600046F54E /* AppConfig.swift in Sources */,
 				68A4309229EAD3D900A5AC47 /* AudioManager.swift in Sources */,
 				682AF1A029D614830032F7EB /* ShotDetectorViewModel.swift in Sources */,
 				682AF19229D614000032F7EB /* shotTimerSwiftUIApp.swift in Sources */,
+				6804FB0829F6C74200F5A21B /* ContentView.swift in Sources */,
+				8943A2DC29FFBD0A00D610D4 /* SignUpView.swift in Sources */,
+				6804FB0329F6C36D00F5A21B /* LoginView.swift in Sources */,
 				6861ACDB29E734B30023B9FD /* Settings.swift in Sources */,
 				6867262029D853950042EA6D /* SettingsViewModel.swift in Sources */,
 			);
@@ -469,6 +520,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		898AB8812A0011BA0046F54E /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.38.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		898AB8822A0011BA0046F54E /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 898AB8812A0011BA0046F54E /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		898AB8842A0011BA0046F54E /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 898AB8812A0011BA0046F54E /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 682AF18629D613FF0032F7EB /* Project object */;
 }

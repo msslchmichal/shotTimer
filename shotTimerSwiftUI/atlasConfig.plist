@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appId</key>
+	<string>shottimer-huwdx</string>
+	<key>appUrl</key>
+	<string>https://realm.mongodb.com/groups/6443ab7d517c765d99e88d3c/apps/6443ac48e23f79e5e83523c7</string>
+	<key>baseUrl</key>
+	<string>https://realm.mongodb.com</string>
+	<key>clientApiBaseUrl</key>
+	<string>https://eu-central-1.aws.realm.mongodb.com</string>
+	<key>dataApiBaseUrl</key>
+	<string>https://eu-central-1.aws.data.mongodb-api.com</string>
+    <key>dataSourceName</key>
+    <string>mongodb-atlas</string>
+</dict>
+</plist>

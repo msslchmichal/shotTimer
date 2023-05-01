@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct SettingsView: View {
-    //@EnvironmentObject var viewModel: ShotDetectorViewModel
     @ObservedObject var settingsViewModel = SettingsViewModel()
     @StateObject private var settings = Settings.shared
     @State private var showAlert = false
     @State private var showAutoConfig = false
+    @State var isLoggingOut = false
 
     var body: some View {
         VStack {
@@ -115,10 +115,18 @@ struct SettingsView: View {
                 }
             }
             .navigationTitle("Settings")
+            .navigationBarItems(trailing: Button("logout"){
+                guard let user = app.currentUser else { return }
+                isLoggingOut = true
+                Task {
+                    await settingsViewModel.logout(user: user)
+                    isLoggingOut = false
+                }
+            }.disabled(app.currentUser == nil || isLoggingOut))
             .alert(isPresented: $showAlert) {
                 Alert(title: Text("Measurement Result"), message: Text("\(settingsViewModel.average)"))
             }
-        }
+                    }
     }
 }
 

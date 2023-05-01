@@ -7,6 +7,7 @@
 
 import Foundation
 import Combine
+import RealmSwift
 import AVFoundation
 
 class SettingsViewModel: ObservableObject {
@@ -81,5 +82,14 @@ class SettingsViewModel: ObservableObject {
         
     func playSelectedSound(soundName: String) {
         audioManager.playSound(soundName: soundName)
+    }
+    func logout(user: User) async {
+        do {
+            try await user.logOut()
+            print("Successfully logged user out")
+        } catch {
+            //self.errorMessage = ErrorMessage
+            print("Failed to log user out: \(error.localizedDescription)")
+        }
     }
 }
